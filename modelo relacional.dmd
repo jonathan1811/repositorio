@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo relacional" id="181A82B5-17AF-EAA6-8B4E-AEF740997F37" version="3.5">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:13:44 UTC</createdTime>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>181A82B5-17AF-EAA6-8B4E-AEF740997F37</designId>
+</OSDM_Design>

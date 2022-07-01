@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB225EE0-223D-8634-9D81-91ED46F9A1E7" name="COMUNA">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>9D075E5D-4D2E-9564-A734-B4A00F7FFA2D</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="20305EB2-7A36-046D-2071-E574EBE06FBC">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>7CE39799-2B96-EC52-2C3E-8D6FA2FD6744</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="142EB1A5-4F1B-6EB5-35DE-73342CF67A9B">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>52DB0D7C-E749-DE3C-89AD-18B2D8FA9A30</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_id" id="814313FE-6EDA-BCAA-EDDB-3BD720C2D019">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>CFE34DC4-EA98-0D0F-5D75-EB9D6F072B88</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4375D62-287B-1F7B-7B0A-70EE31D727EC" referredColumn="74A24465-37F3-84F2-CC30-692A22DA4939"/>
+</associations>
+</Column>
+<Column name="REGION_nombre" id="4A509DBD-8454-A418-1C2B-23DC82FD5E46">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>6BE26904-477F-CD90-A707-FA65DE81C88E</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4375D62-287B-1F7B-7B0A-70EE31D727EC" referredColumn="98E048ED-1414-4577-7445-F737E6BF0B35"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE7F40CC-52F6-27D2-883D-C127A7D09B6A" name="COMUNA_PK">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>1AF2167D-968A-DB57-74DD-25EBDEB0903E</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20305EB2-7A36-046D-2071-E574EBE06FBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAAC319E-E63B-6821-3007-E0784E7CB44D" name="COMUNA_REGION_FK">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>A059C5B5-CCDB-0C3E-CAE0-0D8AF82D1E7A</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="814313FE-6EDA-BCAA-EDDB-3BD720C2D019"/>
+<colUsage columnID="4A509DBD-8454-A418-1C2B-23DC82FD5E46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

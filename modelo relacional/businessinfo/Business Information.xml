@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="567D12A9-D517-5AC4-099B-CDBC2C85025C">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:13:45 UTC</createdTime>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

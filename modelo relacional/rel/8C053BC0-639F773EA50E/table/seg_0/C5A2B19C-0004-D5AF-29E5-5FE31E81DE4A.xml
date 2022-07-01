@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5A2B19C-0004-D5AF-29E5-5FE31E81DE4A" name="CENTRO">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>E2080054-7BB6-B2FD-F98E-B16E5BAC291E</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="15ACE25D-5DFE-EC24-E7D2-CA1BCF3CC389">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>5A4DDDE1-5FF1-19BC-F0EB-854DE8FBF5A2</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="71BB06EA-E9EE-FE14-83A4-8E6DFF8F1353">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>66AA1077-8420-45AB-CF0C-3664CD6D60E9</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOSIS_id" id="C6A826CE-790F-2EDC-D728-86DDCD756704">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>0E2C3247-979E-7258-9959-5248C15646AA</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD1C19BD-C1D3-669D-235D-B309EC103462" referredColumn="C362859E-856D-D87A-6FB4-E06E7E09A420"/>
+</associations>
+</Column>
+<Column name="CIUDAD_id" id="A6486877-F1EA-C3CD-FAFE-7D90E6A21D3E">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:36:13 UTC</createdTime>
+<generatorID>528AF267-66C3-C188-6164-2C475F451C93</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7FC1ED8-FE34-A066-C6B5-7E19B938766B" referredColumn="753BFDAD-37CD-4507-718A-603E6149A5E6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B58EE3F4-8636-E1D2-C886-D8D7CBFEBA02" name="CENTRO_PK">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>8435C039-9723-2A3D-D132-980CDFDF691D</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15ACE25D-5DFE-EC24-E7D2-CA1BCF3CC389"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5D611C7-6851-8C13-8CAF-0BB2E13F463A" name="CENTRO_DOSIS_FK">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>9ED340E3-A14C-4EDC-4948-D0552AB271FD</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6A826CE-790F-2EDC-D728-86DDCD756704"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93C881FD-B8BD-5B26-DC95-FCBEEFE5C70C" name="CENTRO_CIUDAD_FK">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:36:13 UTC</createdTime>
+<generatorID>167E5068-4F4B-9DCB-A404-0AC189ABA655</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6486877-F1EA-C3CD-FAFE-7D90E6A21D3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FB421B1-58A4-CBA2-A22B-E8887CD2F34A" name="CIUDAD">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:36:13 UTC</createdTime>
+<generatorID>F2598034-4E53-B774-30FE-9B711524BDD8</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="753BFDAD-37CD-4507-718A-603E6149A5E6">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:36:13 UTC</createdTime>
+<generatorID>9F55BF60-5001-E924-FA39-195A4545AED4</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="8EBA8415-9783-9EC9-D24D-E6E3FC8606F7">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:36:13 UTC</createdTime>
+<generatorID>DA67640F-4CDC-2143-F0E2-62B2B853F1F3</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMUNA_id" id="4AE077C7-B14E-098D-38B7-35E2FE01C527">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:36:13 UTC</createdTime>
+<generatorID>7CEE4AAB-C295-B53A-1122-4735AB6C5A8F</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7A7CF0E-DD4A-4F87-E228-402A1B424B38" referredColumn="20305EB2-7A36-046D-2071-E574EBE06FBC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C69F5D0F-88F1-5F3F-C97A-998F55977385" name="CIUDAD_PK">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:36:13 UTC</createdTime>
+<generatorID>4225CE21-6563-F494-6817-E488138BC6C9</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="753BFDAD-37CD-4507-718A-603E6149A5E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7D12FB9-B764-E0B4-3B73-23A62A5B772F" name="CIUDAD_COMUNA_FK">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:36:13 UTC</createdTime>
+<generatorID>9789D075-FD2F-B5C9-A28E-60A80D811864</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AE077C7-B14E-098D-38B7-35E2FE01C527"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

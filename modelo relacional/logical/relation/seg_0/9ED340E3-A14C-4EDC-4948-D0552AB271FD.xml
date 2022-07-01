@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="9ED340E3-A14C-4EDC-4948-D0552AB271FD">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:29:58 UTC</createdTime>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<engineerTo>
+<item key="8C053BC0-69BF-C0AD-487B-639F773EA50E" value="true"/>
+</engineerTo>
+<sourcePk>8FBB5810-4BA2-6442-1B76-53BC3E9E8D71</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>019EE9AF-8CDB-4D8D-9A66-2793DC805663</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E2080054-7BB6-B2FD-F98E-B16E5BAC291E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

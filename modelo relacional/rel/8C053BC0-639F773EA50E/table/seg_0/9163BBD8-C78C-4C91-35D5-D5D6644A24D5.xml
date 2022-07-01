@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9163BBD8-C78C-4C91-35D5-D5D6644A24D5" name="DOSIS">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>019EE9AF-8CDB-4D8D-9A66-2793DC805663</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSONA_rut" id="1B54959B-B5F3-7DBC-207F-D2790F1C383F">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>F4F89A99-6538-7CBB-286C-643B45B7D326</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="437D8209-F697-A85D-766F-1D11C0D80799" referredColumn="98123F1F-5B81-A1D1-8D7B-CD8C32A83D35"/>
+</associations>
+</Column>
+<Column name="id" id="C362859E-856D-D87A-6FB4-E06E7E09A420">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>B7906750-6FC9-8ED1-1C85-657A00455209</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="55ECE118-B17A-4146-6F73-24D11239B581">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>24A1643D-7324-2B6A-0B08-18D5FC23D9C8</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora" id="35EE1148-793E-C5B8-B3A7-874FF1539C55">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>4179EC87-09E3-F00D-5EE3-3ADC2DDAE58D</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_VACUNA_TIPO_VACUNA_ID" id="1B9BAA49-ABBD-37A5-C5A1-2E8E26AD251F">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4843E840-80CE-FB13-B514-B0145C3B1284" referredColumn="DB40C2CD-0E13-DCEF-9C0A-EEC1607E9F8B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="886CE531-7353-3EAF-625A-1FDE26B327BD" name="DOSIS_PK">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>8FBB5810-4BA2-6442-1B76-53BC3E9E8D71</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C362859E-856D-D87A-6FB4-E06E7E09A420"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE3FF673-DB01-0D03-2112-5D5D958FD00E" name="DOSIS_TIPO_VACUNA_FK">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>0F4C3B50-2D94-EB44-98AD-0363E9F59D10</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B9BAA49-ABBD-37A5-C5A1-2E8E26AD251F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AEB80FAB-2783-073D-6281-424DBF8DF86C" name="DOSIS_PERSONA_FK">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>63D90DB4-508D-C065-A8FB-BC08AEC8CAAB</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B54959B-B5F3-7DBC-207F-D2790F1C383F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

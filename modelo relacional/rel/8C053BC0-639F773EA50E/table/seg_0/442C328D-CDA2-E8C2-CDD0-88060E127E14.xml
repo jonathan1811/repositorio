@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="442C328D-CDA2-E8C2-CDD0-88060E127E14" name="TIPO_VACUNA">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>1B2E77A1-6972-3E2F-A563-8E0C739D4568</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="DEE49E2A-A834-54DC-D608-8462E440748D">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>3BD96608-81ED-083C-6680-C41A4BE59782</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="3F5C0973-34D0-8136-5817-F6A1D950683C">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>AC5566F7-071F-2F01-7A5D-2862B4A6C8B1</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_VACUNA_ID" id="DB40C2CD-0E13-DCEF-9C0A-EEC1607E9F8B">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7D1EA4D-9FDD-C36E-541B-5FB1D7F4923E" name="TIPO_VACUNA_PK">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="DB40C2CD-0E13-DCEF-9C0A-EEC1607E9F8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

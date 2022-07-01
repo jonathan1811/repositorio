@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E2080054-7BB6-B2FD-F98E-B16E5BAC291E" name="CENTRO">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:17:52 UTC</createdTime>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<engineerTo>
+<item key="8C053BC0-69BF-C0AD-487B-639F773EA50E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="5A4DDDE1-5FF1-19BC-F0EB-854DE8FBF5A2">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:25:03 UTC</createdTime>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<engineerTo>
+<item key="8C053BC0-69BF-C0AD-487B-639F773EA50E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="66AA1077-8420-45AB-CF0C-3664CD6D60E9">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:25:23 UTC</createdTime>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<engineerTo>
+<item key="8C053BC0-69BF-C0AD-487B-639F773EA50E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="0E2C3247-979E-7258-9959-5248C15646AA">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:03 UTC</createdTime>
+<generatorID>9ED340E3-A14C-4EDC-4948-D0552AB271FD</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<engineerTo>
+<item key="8C053BC0-69BF-C0AD-487B-639F773EA50E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B7906750-6FC9-8ED1-1C85-657A00455209</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="528AF267-66C3-C188-6164-2C475F451C93">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:35:46 UTC</createdTime>
+<generatorID>167E5068-4F4B-9DCB-A404-0AC189ABA655</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<engineerTo>
+<item key="8C053BC0-69BF-C0AD-487B-639F773EA50E" value="true"/>
+</engineerTo>
+<referedAttribute>9F55BF60-5001-E924-FA39-195A4545AED4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8435C039-9723-2A3D-D132-980CDFDF691D" name="CENTRO PK">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:25:14 UTC</createdTime>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8C053BC0-69BF-C0AD-487B-639F773EA50E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A4DDDE1-5FF1-19BC-F0EB-854DE8FBF5A2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

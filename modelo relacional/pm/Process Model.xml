@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="77310EF7-BD87-3489-6651-CC1C7D45E61B">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:13:45 UTC</createdTime>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

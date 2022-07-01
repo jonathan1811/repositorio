@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4843E840-80CE-FB13-B514-B0145C3B1284" containerWithKeyObject="9163BBD8-C78C-4C91-35D5-D5D6644A24D5" localFKIndex="FE3FF673-DB01-0D03-2112-5D5D958FD00E" name="DOSIS_TIPO_VACUNA_FK">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>0F4C3B50-2D94-EB44-98AD-0363E9F59D10</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<referredTableLongName>TIPO_VACUNA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>442C328D-CDA2-E8C2-CDD0-88060E127E14</referredTableID>
+<keyObject>F7D1EA4D-9FDD-C36E-541B-5FB1D7F4923E</keyObject>
+<referredKeyID>F7D1EA4D-9FDD-C36E-541B-5FB1D7F4923E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TIPO_VACUNA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

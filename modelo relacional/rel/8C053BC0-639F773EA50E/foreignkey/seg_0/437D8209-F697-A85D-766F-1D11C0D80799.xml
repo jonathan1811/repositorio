@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="437D8209-F697-A85D-766F-1D11C0D80799" containerWithKeyObject="9163BBD8-C78C-4C91-35D5-D5D6644A24D5" localFKIndex="AEB80FAB-2783-073D-6281-424DBF8DF86C" name="DOSIS_PERSONA_FK">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>63D90DB4-508D-C065-A8FB-BC08AEC8CAAB</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<referredTableLongName>PERSONA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>901478C3-2A75-E25E-5EED-D5E4FCDE0D13</referredTableID>
+<keyObject>166E9927-D3FA-EFC3-023F-18C9236F3F69</keyObject>
+<referredKeyID>166E9927-D3FA-EFC3-023F-18C9236F3F69</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rut</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

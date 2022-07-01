@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D075E5D-4D2E-9564-A734-B4A00F7FFA2D" name="COMUNA ">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:18:00 UTC</createdTime>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<engineerTo>
+<item key="8C053BC0-69BF-C0AD-487B-639F773EA50E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="7CE39799-2B96-EC52-2C3E-8D6FA2FD6744">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:24:18 UTC</createdTime>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<engineerTo>
+<item key="8C053BC0-69BF-C0AD-487B-639F773EA50E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="52DB0D7C-E749-DE3C-89AD-18B2D8FA9A30">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:24:19 UTC</createdTime>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<engineerTo>
+<item key="8C053BC0-69BF-C0AD-487B-639F773EA50E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="CFE34DC4-EA98-0D0F-5D75-EB9D6F072B88">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:27:58 UTC</createdTime>
+<generatorID>A059C5B5-CCDB-0C3E-CAE0-0D8AF82D1E7A</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<engineerTo>
+<item key="8C053BC0-69BF-C0AD-487B-639F773EA50E" value="true"/>
+</engineerTo>
+<referedAttribute>F0BD771D-3365-DB02-842E-1DD2460D7404</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre1" id="6BE26904-477F-CD90-A707-FA65DE81C88E">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:27:58 UTC</createdTime>
+<generatorID>A059C5B5-CCDB-0C3E-CAE0-0D8AF82D1E7A</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<engineerTo>
+<item key="8C053BC0-69BF-C0AD-487B-639F773EA50E" value="true"/>
+</engineerTo>
+<referedAttribute>599EB693-6E71-8238-E019-79E606083700</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1AF2167D-968A-DB57-74DD-25EBDEB0903E" name="COMUNA PK">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:24:52 UTC</createdTime>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8C053BC0-69BF-C0AD-487B-639F773EA50E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7CE39799-2B96-EC52-2C3E-8D6FA2FD6744</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

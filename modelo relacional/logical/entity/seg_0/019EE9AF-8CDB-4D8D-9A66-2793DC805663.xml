@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="019EE9AF-8CDB-4D8D-9A66-2793DC805663" name="DOSIS">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:16:18 UTC</createdTime>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<engineerTo>
+<item key="8C053BC0-69BF-C0AD-487B-639F773EA50E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut" id="F4F89A99-6538-7CBB-286C-643B45B7D326">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:31:05 UTC</createdTime>
+<generatorID>63D90DB4-508D-C065-A8FB-BC08AEC8CAAB</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<engineerTo>
+<item key="8C053BC0-69BF-C0AD-487B-639F773EA50E" value="true"/>
+</engineerTo>
+<referedAttribute>926F2918-D2D0-49E4-1EA9-E7F54BCD0A62</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="B7906750-6FC9-8ED1-1C85-657A00455209">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:31:17 UTC</createdTime>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<engineerTo>
+<item key="8C053BC0-69BF-C0AD-487B-639F773EA50E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="24A1643D-7324-2B6A-0B08-18D5FC23D9C8">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:31:18 UTC</createdTime>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<engineerTo>
+<item key="8C053BC0-69BF-C0AD-487B-639F773EA50E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora" id="4179EC87-09E3-F00D-5EE3-3ADC2DDAE58D">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:31:47 UTC</createdTime>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<engineerTo>
+<item key="8C053BC0-69BF-C0AD-487B-639F773EA50E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8FBB5810-4BA2-6442-1B76-53BC3E9E8D71" name="DOSIS PK">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:31:33 UTC</createdTime>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8C053BC0-69BF-C0AD-487B-639F773EA50E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B7906750-6FC9-8ED1-1C85-657A00455209</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

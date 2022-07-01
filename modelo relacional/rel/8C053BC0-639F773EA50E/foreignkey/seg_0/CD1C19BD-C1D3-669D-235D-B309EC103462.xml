@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CD1C19BD-C1D3-669D-235D-B309EC103462" containerWithKeyObject="C5A2B19C-0004-D5AF-29E5-5FE31E81DE4A" localFKIndex="E5D611C7-6851-8C13-8CAF-0BB2E13F463A" name="CENTRO_DOSIS_FK">
+<createdBy>zurit</createdBy>
+<createdTime>2022-07-01 01:32:25 UTC</createdTime>
+<generatorID>9ED340E3-A14C-4EDC-4948-D0552AB271FD</generatorID>
+<ownerDesignName>modelo relacional</ownerDesignName>
+<referredTableLongName>DOSIS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9163BBD8-C78C-4C91-35D5-D5D6644A24D5</referredTableID>
+<keyObject>886CE531-7353-3EAF-625A-1FDE26B327BD</keyObject>
+<referredKeyID>886CE531-7353-3EAF-625A-1FDE26B327BD</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
